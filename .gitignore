@@ -1,0 +1,91 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*# ---------- Python ----------
+
+**pycache**/
+*.py[cod]
+*$py.class
+__pycache__/
+
+# Compiled extensions
+
+*.so
+*.pyd
+*.dll
+*.exe
+
+# Distribution / packaging
+
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ---------- Virtual Environments ----------
+
+venv/
+.venv/
+env/
+ENV/
+
+# ---------- PyInstaller ----------
+
+# Build artifacts
+
+*.spec
+build/
+dist/
+
+# ---------- Logs ----------
+
+*.log
+
+# ---------- Unit test / coverage ----------
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# ---------- Jupyter ----------
+
+.ipynb_checkpoints/
+
+# ---------- IDEs ----------
+
+.vscode/
+.idea/
+
+# ---------- OS Files ----------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Environment variables ----------
+
+.env
+.env.*
+
+# ---------- Temporary files ----------
+
+*.tmp
+*.temp
+
+# ---------- ImageMagick / bundled binaries ----------
+
+magick/
+magick.exe
+gs/
+# ---------- Warehouse Drop Folder ----------
+
+C:/WarehouseDrop/
+
